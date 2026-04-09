@@ -45,6 +45,14 @@ Target certifications: A+ → Network+ → AWS Cloud Practitioner → AWS SAA
 
 **How I fixed it:**  
 - Unchecked "Proceed with Unattended Installation" before hitting Finish
+  
+**Commands / Tools Used:**
+- VirtualBox
+- Windows 10 ISO Media Creation Tool
+
+**Key Takeaway:**
+Learned how VM setup works and the importance of manually 
+controlling installation settings vs automated installs.
 
 **What this skill means on the job:**  
 IT techs deploy and reimage machines constantly. This is day-one help desk work.
