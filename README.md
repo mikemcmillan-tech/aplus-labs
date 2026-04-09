@@ -25,18 +25,26 @@ Target certifications: A+ → Network+ → AWS Cloud Practitioner → AWS SAA
 ## Lab 01 — VirtualBox + Windows 10 VM
 
 **Date:** April 8, 2026  
-**Tools:** VirtualBox, Windows 10 ISO
+**Tools:** VirtualBox, Windows 10 ISO, Host OS: Windows 11
 
-**What I did:**  
-- Installed VirtualBox and created a Windows 10 virtual machine
-- Allocated 4GB RAM, 50GB virtual disk
-- Installed Windows 10 Pro with a local admin account
+**What I did:**
+- Downloaded and installed VirtualBox on Windows 11 host machine
+- Downloaded Windows 10 ISO using Microsoft's Media Creation Tool
+- Created a new VM with the following specs:
+  - 4096 MB RAM
+  - 2 CPUs
+  - 50 GB virtual hard disk
+- Attached the Windows 10 ISO to the VM
+- Booted the VM and started a clean custom installation
+- Selected "Install Windows only (advanced)" — no upgrade, fresh install
+- Watched Professor Messer: Operating Systems Overview (Core 2)
+
 
 **What went wrong:**  
-*(fill this in)*
+- Unattended Installation was checked by default — had to uncheck it manually
 
 **How I fixed it:**  
-*(fill this in)*
+- Unchecked "Proceed with Unattended Installation" before hitting Finish
 
 **What this skill means on the job:**  
 IT techs deploy and reimage machines constantly. This is day-one help desk work.
